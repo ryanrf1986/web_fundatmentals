@@ -1,0 +1,28 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    /* font-family:'Times New Roman', Times, serif */
+}
+
+.header{
+    background-color: black;
+    color: aqua;
+    font-size: 40px;
+    padding: 15px;
+    font-style: bold;
+}
+
+h2{
+    background-color:purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+h3{
+    color: black;
+    background-color:dodgerblue;
+    text-align: end;
+    padding-right: 15px;
+    text-decoration: underline;
+}
