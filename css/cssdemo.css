@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  width: 1200px;
+  padding: 25px;
+}
+
+/* .subheader{
+    color: rebeccapurple;
+} */
+
+#header {
+  color: red;
+}
+
+.body{
+    margin-top: 70px;
+}
+
+.body > h1,
+.body > h2 {
+  color: rebeccapurple;
+}
