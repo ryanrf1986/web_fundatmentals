@@ -1,0 +1,45 @@
+#picture {
+  width: 200px;
+}
+
+#git {
+  width: 30px;
+  display: inline-block;
+}
+
+#linkedin {
+  width: 30px;
+}
+
+#email {
+  width: 30px;
+}
+
+.row {
+  display: inline-block;
+}
+
+#links {
+}
+
+table {
+  border-collapse: collapse;
+}
+table td,
+table th {
+  border: 1px solid #000;
+}
+table tr:first-child th {
+  border-top: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}

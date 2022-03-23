@@ -1,0 +1,49 @@
+*{
+margin: 0 auto;
+padding: 0px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color:dimgrey;
+    padding-top: 20px;
+    font-size: 55px;
+}
+
+.container{
+    padding: 15px;
+    background-color: rgb(233, 224, 224);
+    width: 1100px;
+}
+
+img{
+    height: 275px;
+}
+
+
+.sub , .mid, .end {
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+}
+
+.sub{
+    background-color: aqua;
+}
+
+.mid{
+    background-color: darksalmon;
+    justify-content: space-around;
+}
+
+.end{
+    background-color: antiquewhite;
+}
+
+
+p{
+    margin-bottom: 10px;
+    text-align: center;
+    color: dimgrey;
+}

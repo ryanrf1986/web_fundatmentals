@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.nav{
+    background-color: grey;
+    vertical-align: middle;
+    font-family: Roboto;
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    gap: 25px;
+    justify-items: center;
+}
+
+.active{
+    /* display: flex;
+    justify-content: end; */
+    color: white;
+}
+
+.btn{
+    background-color: aqua;
+    color: white;
+    box-shadow: 5px 5px black;
+}
+
+ul , h1{ 
+    display: inline-block;
+    justify-items:flex-end;
+    padding-bottom: 10px;
+    align-items: center;
+    color: white;
+}

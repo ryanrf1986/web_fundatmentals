@@ -1,0 +1,31 @@
+.search {
+    background-color: white;
+    color:lightgreen;
+    border: 2px solid lightgreen;
+    font-size: medium;
+    padding: 10px 35px;
+    border-radius: 35px;
+    width: 47px;
+    text-align: center;
+  }
+
+.plusbutton{
+    background-color: lightgreen;
+    color: white;
+    border-radius: 50%;
+    width: 45px;
+    place-items: center;
+    aspect-ratio: 1;
+    display: grid;
+
+}
+
+.createaccount{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    border: 2px solid black;
+    width: 120px;
+    box-shadow: 10px 5px 5px black;
+}
