@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card{
+    width: 600px;
+    height: 275px;
+    margin: 30px;
+    border: 3px solid lightslategray;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    padding: 45px;
+}
+
+.top-bar{
+    width: 600px;
+    background-color: aqua;
+    height: 75px;
+}
+
+.name{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 40px;
+    font-size: 25px;
+    justify-content: start;
+}
+
+.location{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    height: 25px;
+    width: 10px;
+    margin-top: 5px;
+    padding-left: 40px;
+}
+
+.location img{
+    height: 20px;
+    width: 15px;
+    padding: 5px;
+}
+
+.info{
+    font-size: 17px;
+    align-items: center;
+    padding-left: 45px;
+    padding-top: 10px;
+}
+
+.editpro{ 
+    display:flex;
+    align-items: center;
+    margin-top: 15px;
+    height: 25px;
+    padding-left: 45px;
+}
+
+.editpro img{
+    height: 25px;
+    width: 20px;
+    padding: 5px;
+}
