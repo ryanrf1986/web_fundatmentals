@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mastercontainer{
+    width: 100px;
+    min-width: 1500px;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-title{
+    margin: 10px;
+    font-weight: 400px;
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+.nav-links a{
+    margin: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    width: 125px;
+    height: 45px;
+    font-size: larger;
+    background-color: rgb(19, 155, 171);
+    color: rgb(255, 255, 255);
+    border: 6px solid rgb(0, 0, 0);
+    box-shadow:4px 12px rgb(0, 0, 0);
+}
+
+.pagebody{
+    display: flex;
+    justify-content: center;
+}
+
+.left{
+    background-color: white;
+    margin-left: 400px;
+}
+
+.right{
+    background-color: aqua;
+    width: 750px;
+    padding-right: 350px;
+    margin-left: 80px;
+}
+
+.education{
+    width: 500px;
+    height: 200px;
+    border: 2px grey;
+    margin: 30px;
+    border: 3px solid;
+    text-align: center;
+}
+
+.profile{
+    width: 500px;
+    height: 400px;
+    border: 2px tan;
+    margin: 30px;
+    border: 3px solid;
+    text-align: center;
+}
+
+.request{
+    width: 500px;
+    width: 400px;
+    border: 2px red;
+    margin: 30px;
+    border: 3px solid;
+    text-align: center;
+}
+
+.your{
+    width: 400px;
+    height: 400px;
+    border: 2px purple;
+    margin: 30px;
+    border: 3px solid;
+    text-align: center;
+}
+
+.names{
+    width: 40px;
+    height: 100px;
+    border: 2px purple;
+    border: 3px solid;
+    text-align: center;
+    background-color: black;
+}
+
+.view{
+    width: 40px;
+    height: 100px;
+    border: 2px rgb(207, 184, 207);
+    border: 3px solid;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.header{
+    background-color: chartreuse;
+}
+
+.data{
+    background-color: darkgoldenrod;
+}
