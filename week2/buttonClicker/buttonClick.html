@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="./buttonClick.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 class="nav-title">Dojonary</h1>
+            <form action="/process" method="post">
+            <div>
+                <input type="text" name="Search" placeholder="Search" />
+            </div>
+            </form>
+                <button onclick="turnOff(this)">Login</button>
+      </div>
+
+    <div class="mainbody">
+        <div class="leftbox">
+                <div class="topBox">
+                    <div class="left">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p2>Plural: <i>ninjas</i></p2>
+                        <button type="button" onClick="clickFunction()">13      Likes</button>
+                    </div>
+            <!-- right side-->
+                    <div class="right">
+                        <p>
+                        A practitioner skilled in the <a href="#">Japanese</a>     art  of
+                        <a href="#">ninjutsu</a>
+                        </p>
+                    </div>
+                </div>
+            <!-- bottom -->
+            <div class="bottomBox">
+                <div class="left">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <p2>Plural: <i>ninjas</i></p2>
+                    <button type="button" onClick="clickFunction()">37     Likes</button>
+                </div>
+            <!-- right side-->
+                <div class="right">
+                    <p>A <a href="#">programmer</a> who breaks down problems with
+                        <a href="#">zen</a>-like focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sidebox">
+            <h2>Dojonary is defined by <strong>YOU</strong></h2>
+            <button onclick="hideButton(this)">Add Definition</button>
+        </div>
+        
+    </div>
+    <script src="buttonClick.js"></script>
+</body>
+</html>

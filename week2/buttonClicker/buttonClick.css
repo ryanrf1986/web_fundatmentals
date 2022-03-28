@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:serif
+}
+
+.container{
+    width: 1200px;
+    height: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar{
+    background-color: grey;
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;    
+}
+
+.navbar > button{
+    background-color: blue;
+    color: white;
+    box-shadow: 0 8px 16px 0 black;
+    height: 25px;
+    width: 55px;
+}
+
+.topBox{
+    border: 2px solid black;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    margin: 25px 0 0 25px;
+}
+
+.bottomBox{
+    border: 2px solid black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin: 25px 0 0 25px;
+}
+
+.sidebox{
+    border: 2px solid black;
+    height: 175px;
+    text-align: center;
+    vertical-align: left;
+}
+
+.sidebox > button{
+    height:35px;
+    width: 225px;
+    background-color: lightgreen;
+    font-size: large;
+    font-weight: bold;
+    margin: 25px 0 0 0;
+}
+
+.left > button{
+    background-color:  yellow;
+    height:35px;
+    width: 90px;
+    box-shadow: 0 8px 16px 0 black;
+    font-size:medium;
+    font-weight: bold;
+    display: block;
+}
+
+.mainbody{
+    /* background-color: chartreuse; */
+    display: flex;
+    
+}
+
+.leftbox{
+    width: 540px;
+    padding-left: 90px;
+}
+
+.sidebox{
+    margin: 25px 0 0 25px;
+}
+
+.left{ 
+    text-align: center;
+}
+
+h1, h3, p2, button{
+    margin: 20px 100px 0 10px;
+}
