@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif ;
+}
+
+.container{
+    width: 750px;
+    /* background-color: bisque; */
+}
+
+.main-body{
+
+}
+
+.navbar{
+    background-color:  black;
+    color: white;
+    display: flex;
+    padding-left: 15px;
+    margin: 0 20px;
+}
+
+.title{
+    justify-content: center;
+    display: flex;
+    padding: 10px 0;
+}
+
+.bodybox{
+    display: flex;
+
+}
+
+.left{
+    border: 4px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding: 15px;
+    margin: 0 25px 195px 20px;
+}
+
+.picture > img{
+    height:70px;
+    padding-top: 5px;
+}
+
+.picture{
+    flex: 2;
+}
+
+.avatartext{
+    flex: 1;
+}
+
+.name{
+    flex: 1;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+}
+.cardtop{
+    border: 4px black solid;
+    margin-bottom: 10px;
+    flex:1;   
+    padding: 20px 20px 20px 20px;
+}
+
+.cardmid{
+    border: 4px black solid;
+    margin-bottom: 10px;
+    flex: 1;
+    padding: 20px 20px 20px 20px;
+}
+
+.cardbot{
+    border: 4px black solid;
+    flex: 1;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.user{
+    /* padding: 15px 0 20px 20px; */
+}
+
+.rightlike{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+    
+}
+
+.filler{
+    flex-wrap: wrap;
+}
+
+.fix{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.rightlike > p{ 
+    padding-right: 25px;
+}
+
+.rightlike > button{
+    width: 65px;
+    height: 35px;
+    background-color: yellow;
+    box-shadow: 5px 5px black;
+}

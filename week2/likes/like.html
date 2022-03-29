@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="like.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-body">
+            <!-- nav -->
+            <div class="navbar">
+                <h1>Network</h1>
+            </div>
+            <div class="title">
+                <h2>Your Feed</h2>
+            </div>
+            <!-- body -->
+            <div class="bodybox">
+                <!-- left side box -->
+                <div class="left">
+
+                    <div class="picture">
+                        <img src="user-circle.png" alt="user-circle">
+                    </div>
+
+                    <div class="avatartext">
+                        <a href="#">Add an avatar</a>
+                    </div>
+
+                    <div class="name">
+                    <h3>James Doe</h3>
+                    </div>
+                    <!-- card on left side -->
+                </div>
+                <div class="right">  
+                    <div class="cardtop">
+                        <div class="fix">
+
+                            <div class="user">
+                                <h2>Neil M</h2>
+                            </div>
+
+                            <div class="rightlike">
+                                <p><a id="clicks">9</a> like(s)</p>
+                                <button type="button" onClick="onPushed()">Like</button>
+                            </div>
+
+                        </div>
+
+                            <div class="filler">
+                                <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a> </p>
+                            </div>
+                            
+                    </div>
+
+                    <div class="cardmid">
+                        <div class="fix">
+                            <div class="user">
+                                <h2>Nichole K</h2>
+                            </div>
+
+                            <div class="rightlike">
+                                <p><a id="liked">12</a> like(s)</p>
+                                <button type="button" onClick="onMashed()">Like</button>
+                            </div>
+
+                        </div> 
+
+                            <div class="filler">
+                                <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                            </div>
+
+                    </div>
+
+                    <div class="cardbot">
+                        <div class="fix">
+                            <div class="user">
+                                <h2>Jim R</h2>
+                            </div>
+
+                            <div class="rightlike">
+                                <p><a id="count">9</a> like(s)</p>
+                                <button type="button" onclick="onCount()">Like</button>
+                            </div>
+                        </div>
+                            <div class="filler">
+                                <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                            </div>
+                    </div>
+                </div>     
+            </div>    
+        </div>
+    </div>
+    <script src="likes.js"></script>
+</body>
+</html>
