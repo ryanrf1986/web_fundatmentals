@@ -268,22 +268,28 @@
     font-size: medium;
     box-shadow: 5px 5px black;
     border: 3px solid black;
+    margin-right: 35px;
 
 }
 
 .words{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+    /* display: flex; */
+    /* align-items: flex-start; */
+    /* flex-direction: column; */
+    /* align-content:flex-start; */
     
 }
 
 .words > p{
-    display: flex;
+    /* display: flex; */
     
 }
 
 #cookie-message > img{
     padding-left: 20px;
-    margin-right: -150px;
+    /* margin-right: -150px; */
+}
+
+.words > p > a{
+    /* margin-left: 4px; */
 }
